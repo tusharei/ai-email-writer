@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/email")
 @AllArgsConstructor
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "${frontend.url}")
 public class EmailGeneratorController {
 
     private final EmailGeneratorService emailGeneratorService;

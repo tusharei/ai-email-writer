@@ -1,0 +1,18 @@
+# Node (frontend)
+ai-email-writer-react/node_modules/
+ai-email-writer-react/.env
+ai-email-writer-react/dist/
+ai-email-writer-react/.vite/
+
+# Java (backend)
+ai-email-writer-sb/.env
+ai-email-writer-sb/.idea/
+
+*.log
+
+# OS files
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
